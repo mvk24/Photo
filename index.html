@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google search console meta tag -->
+    <meta name="google-site-verification" content="pKmAOeOv6VHzO_PYszUhTBgM3CAOSf78sBx2cL7IE9M" /> 
+
+    <title>Varun Mithyantha</title>
+    
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Form validation-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <!-- header section start -->
+  <div class="bg-img">
+    <nav class="navbar navbar-expand-md  bg-black navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">MVK</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item mx-3">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="stories.html">Stories</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <script>
+      $(document).ready(function(){
+        $(".nav-link").click(function(){
+          $(".navbar-collapse").removeClass("show");
+        });
+      });
+    </script>
+    
+   <!-- header section end -->
+
+      
+   <!-- home section start -->
+
+    <div class="container-fluid" id="main">
+      <div class="row justify-content-center align-items-center" style="width:100%;">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+              <h1 style="color: greenyellow">VARUN MITHYANTHA</h1>
+              <h5 style="color: white;">Photographer | Traveller</h5>
+              <br><br>
+          </div>
+          <div class="row justify-content-center" >
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" id="text">"To me, photography is an art of observation. It’s about finding something interesting in an ordinary place… I’ve found it has little to do with the things you see and everything to do with the way you see them."</div>
+          </div>
+          </div>
+          <div class = "social-icons">
+            <ul style="list-style: none;">
+                <li>
+                   <a href = "https://www.linkedin.com/in/varun-mithyantha/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <a href = "https://github.com/mvk24/" target="_blank"><i class="fa fa-github"></i></a>
+              </li>
+                <li>
+                  <a href = "https://t.me/vmk24" target="_blank"><i class="fa fa-telegram"></i></a>
+              </li>
+            </ul>
+        </div>
+          
+      </div>
+  </div>
+
+   <!-- home section end -->
+        
+    
+    <!-- gallery section start -->
+
+    <div class="container"id="gallery">
+      <br><br><br>
+      <h2>GALLERY</h2><br>
+      <div class="container px-4 text-center">
+  
+      <div class="row gx-5 mb-3">
+  
+        <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+          <img src="images/g1.JPG" alt="" onclick="make(event)">
+          <span>Talasi Abbi Falls</span>
+       </div>
+       <div class="zoom col-xs-3 col-lg-3 mb-3" class >
+          <img src="images/g2.jpeg" alt="" onclick="make(event)">
+          <span>Homestay</span>
+       </div>
+       <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+          <img src="images/g21.JPG" alt="" onclick="make(event)">
+          <span>Thombattu Falls</span>
+       </div>
+       <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+          <img src="images/g4.JPG" alt="" onclick="make(event)">
+          <span>Yaana Caves</span>
+       </div>
+     </div>
+     
+     <div class="row gx-5 mb-3">
+  
+       <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+          <img src="images/g28.jpg" alt="" onclick="make(event)">
+          <span>Chikkaballapura</span>
+       </div>
+       <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+          <img src="images/g9.jpeg" style="height: 160px;" alt="" onclick="make(event)">
+          <span>Kapu Beach</span>
+       </div>
+        <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+          <img src="images/g7.jpg" alt="" onclick="make(event)">
+          <span>Belkaltheertha Falls</span>
+        </div>
+        <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+          <img src="images/g8.jpg" alt="" onclick="make(event)">
+          <span>Muduru</span>
+        </div>
+     </div>
+     
+     <div class="row gx-5 mb-3">
+  
+       <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+          <img src="images/g3.jpeg" style="height: 180px;" alt="" onclick="make(event)">
+          <span>Kodi Beach</span>
+       </div>
+       <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+           <video width="300" height="170" controls>
+           <source src="images/g10.mp4" type="video/mp4">Your browser does not support the video tag</video>
+        <span>Jaggery Extraction</span>
+       </div>
+       <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <video width="300" height="170" controls>
+        <source src="images/g12.mp4" type="video/mp4">Your browser does not support the video tag</video>
+      <span>Trailer</span>
+    </div>
+       <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <img src="images/g29.JPG" alt="" onclick="make(event)">
+        <span>Kuppalli</span>
+      </div>
+    </div>
+  
+      <div class="row gx-5 mb-3">
+        
+        <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+          <img src="images/g51.gif" alt="" onclick="make(event)">
+          <span>Boat</span>
+        </div>
+        
+        <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+          <img src="images/g30.jpeg" alt="" onclick="make(event)">
+          <span>Road</span>
+       </div>
+        <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+          <img src="images/g23.jpeg" alt="" onclick="make(event)">
+          <span>Gateway</span>
+        </div>
+        <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+          <img src="images/g16.jpeg" alt="" onclick="make(event)">
+          <span>A Horse</span>
+        </div>
+      </div>
+  
+      <div class="row gx-5 mb-3">
+  
+        <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+          <img src="images/g27.jpeg" alt="" onclick="make(event)">
+          <span>Adi Yogi</span>
+        </div>
+        <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+          <img src="images/g18.jpeg" style="height: 160px;" alt="" onclick="make(event)">
+          <span>Lalbagh</span>
+        </div>
+        <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+          <img src="images/g13.jpeg" alt="" onclick="make(event)">
+          <span>Travel Karnataka</span>
+        </div>
+        <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+          <img src="images/g20.jpg" alt="" onclick="make(event)">
+          <span>Green Way</span>
+        </div>
+      </div>
+  
+      <div class="row gx-5 mb-3">
+  
+        <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+          <img src="images/g19.JPG" alt="" onclick="make(event)">
+          <span>Saligrama</span>
+        </div>
+        <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+          <img src="images/g24.JPG" alt="" onclick="make(event)">
+          <span>Me</span>
+        </div>
+        <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+          <img src="images/g15.jpeg" alt="" onclick="make(event)">
+          <span>Metkalgudda</span>
+        </div>
+        <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+          <img src="images/g5.JPG" alt="" onclick="make(event)">
+          <span>Cats</span>
+        </div>
+     </div>
+
+     <div class="row gx-5 mb-3">
+  
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <img src="images/g25.jpeg" alt="" onclick="make(event)">
+        <span>Bhoganandishwara Temple</span>
+      </div>
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <img src="images/g14.jpeg"  alt="" onclick="make(event)">
+        <span>Eco Beach</span>
+      </div>
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <img src="images/g6.JPG" alt="" onclick="make(event)">
+        <span>Barkur Fort</span>
+      </div>
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <img src="images/g26.jpeg" alt="" onclick="make(event)">
+        <span>Gudibande Fort</span>
+      </div>
+    </div>
+
+<!-- new -->
+    <div class="row gx-5 mb-3">
+
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <video width="270" height="170" controls>
+          <source src="images/g31.mp4" type="video/mp4">Your browser does not support the video tag</video>
+          <span>A Train</span>
+      </div>
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <video width="270" height="170" controls>
+          <source src="images/g32.mp4" type="video/mp4">Your browser does not support the video tag</video>
+          <span>Timelapse</span>
+      </div>
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <video width="270" height="170" controls>
+          <source src="images/g33.mp4" type="video/mp4">Your browser does not support the video tag</video>
+          <span>Birds</span>
+      </div>
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <video width="270" height="170" controls>
+          <source src="images/g34.mp4" type="video/mp4">Your browser does not support the video tag</video>
+          <span>Junction</span>
+      </div>
+    </div>
+
+    
+    <div class="row gx-5 mb-3">
+  
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <video width="300" height="170" controls>
+          <source src="images/g41.mp4" type="video/mp4">Your browser does not support the video tag</video>
+          <span>KRS Dam</span>
+      </div>
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <video width="300" height="170" controls>
+          <source src="images/g42.mp4" type="video/mp4">Your browser does not support the video tag</video>
+          <span>Fly</span>
+      </div>
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <video width="300" height="170" controls>
+          <source src="images/g53.mp4" type="video/mp4">Your browser does not support the video tag</video>
+          <span>Railway Track</span>
+      </div>
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <img src="images/g36.jpg" alt="" onclick="make(event)">
+        <span>Hardinge Circle</span>
+      </div>
+    </div>
+
+    <div class="row gx-5 mb-3">
+  
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <img src="images/g35.jpg" alt="" onclick="make(event)">
+        <span>Morning Walk</span>
+      </div>
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <img src="images/g50.jpg"  alt="" onclick="make(event)">
+        <span>Indoor</span>
+      </div>
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <img src="images/g37.jpg" alt="" onclick="make(event)">
+        <span>Chamundi Hills</span>
+      </div>
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <img src="images/g38.jpeg" alt="" onclick="make(event)">
+        <span>Dressing Table</span>
+      </div>
+    </div>
+
+
+    <div class="row gx-5 mb-3">
+  
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <img src="images/g52.jpg"  alt="" onclick="make(event)">
+        <span>Jaganmohan Palace</span>
+      </div>
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <img src="images/g44.jpeg"  alt="" onclick="make(event)">
+        <span>Send Off</span>
+      </div>
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <img src="images/g45.jpg" alt="" onclick="make(event)">
+        <span>Kuvempu Forest</span>
+      </div>
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <img src="images/g46.jpeg" alt="" onclick="make(event)">
+        <span>Main Door</span>
+      </div>
+    </div>
+
+    <div class="row gx-5 mb-3">
+  
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <img src="images/g47.jpg" alt="" onclick="make(event)">
+        <span>Mysore Palace</span>
+      </div>
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <img src="images/g48.jpg"  alt="" onclick="make(event)">
+        <span>Railway Museum</span>
+      </div>
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <img src="images/g49.jpg" alt="" onclick="make(event)">
+        <span>Sand Museum</span>
+      </div>
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <img src="images/g17.jpeg" alt="" onclick="make(event)">
+        <span>Koteshwara Beach</span>
+      </div>
+
+      
+    </div>
+
+    <div class="row gx-5 mb-3">
+  
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <img src="images/g39.jpg" alt="" onclick="make(event)">
+        <span>Golden Ambari</span>
+      </div>
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <img src="images/g43.jpg" alt="" onclick="make(event)">
+        <span>Marriage Hall</span>
+      </div>
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <img src="images/g40.jpg" alt="" onclick="make(event)">
+        <span>Royal Orchid</span>
+      </div>
+      <div class="zoom col-xs-3 col-lg-3 mb-3" class>
+        <img src="images/g54.jpg" alt="" onclick="make(event)">
+        <span>Bonsai Garden</span>
+      </div>
+    </div>
+
+    </div>
+  </div>
+  <br><br><br>
+    
+
+    <!-- Script to view gallery pictures in full screen -->
+    <script>
+      function make(e){
+  var d = e.currentTarget;
+        //Use the specification method before using prefixed versions
+        //d=divident object
+  if (d.requestFullscreen) {
+    d.requestFullscreen();
+  } else if (d.msRequestFullscreen) {
+    d.msRequestFullscreen();
+  } else if (d.mozRequestFullScreen) {
+    d.mozRequestFullScreen();
+  } else if (d.webkitRequestFullscreen) {
+    d.webkitRequestFullscreen();
+  } else {
+    console.log("Fullscreen API is not supported");
+  }
+}
+</script>
+
+    <!-- gallery section end -->
+
+<!-- Contact Section Start -->
+    
+    <div class="container" id="contact">
+      <br><br><br>
+       <h2>CONTACT ME</h2>
+       <br>
+       
+    <form  class="row g-3" id="send_message">
+
+      <div class="col-lg-3"></div>
+      <div class="form-group col-lg-6 col-sm-12">
+        <label>Name</label>
+        <input type="text" name="name" id="name" class="form-control" required onkeypress="return Validate(event);" />
+        <span id="err" style="color: red;"></span>
+        <!-- Name Validation start -->
+        <script type="text/javascript">
+          function Validate(e) {
+              var keyCode = e.keyCode || e.which;
+  
+              var lblError = document.getElementById("err");
+              lblError.innerHTML = "";
+  
+              //Regex for Valid Characters i.e. Alphabets and spaces.
+              var regex = /^[A-Za-z ]+$/;
+  
+              //Validate TextBox value against the Regex.
+              var isValid = regex.test(String.fromCharCode(keyCode));
+              if (!isValid) {
+                  lblError.innerHTML = "Only Alphabets allowed.";
+              }
+              return isValid;
+          }
+      </script>
+      <!-- Name Validation end -->
+     </div>
+     
+      <div class="col-lg-3"></div>
+
+      <div class="col-lg-3"></div>
+      <div class="form-group col-lg-6 col-sm-12">
+        <label>Email</label>
+        <input type="text" id="txtEmail" name="email" class="form-control email_form" required onkeyup="ValidateEmail();" />
+        <span id="lblError" style="color: red;"></span>
+       
+        <!-- Email Validation start-->
+        <script type="text/javascript">
+          function ValidateEmail() {
+              var email = document.getElementById("txtEmail").value;
+              var lblError = document.getElementById("lblError");
+              lblError.innerHTML = "";
+              var expr = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+              if (!expr.test(email)) {
+                  lblError.innerHTML = "Invalid email address.";
+              }
+          }
+      </script>
+      <!-- Email Validation end -->
+      </div>
+
+      <div class="col-lg-3"></div>
+
+      <div class="col-lg-3"></div>
+      <div class="form-group col-lg-6 col-sm-12">
+        <label>Subject</label>
+        <input type="text" name="subject" class="form-control" required>
+      </div>
+      <div class="col-lg-3"></div>
+
+      <div class="col-lg-3"></div>
+      <div class="form-group col-lg-6 col-sm-12">
+        <label>Message</label>
+        <input type="text" name="message" class="form-control" required>
+      </div>
+      <div class="col-lg-3"></div>
+  
+      <div class="col-12 text-center"><br>
+        <button class="btn btn-primary" type="submit" onclick="location.href='https://t.me/vmk24';">Send message</button>
+      </div>
+  </div>
+  </form>
+</div>
+<br>
+  <!-- contact section end -->
+  
+  <!-- footer section start -->
+
+  <footer class="footer bg-dark text-center text-white"><br>
+    <h6>Design & Devolped by Varun Mithyantha</h6>
+    <div class="container">
+    <!-- Section: Social media -->
+    <section>
+      <!-- telegram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://t.me/vmk24" role="button"><i class="fab fa-telegram"></i></a>
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/varun-mithyantha/" role="button"><i class="fab fa-linkedin-in"></i></a>
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/mvk24/" role="button"><i class="fab fa-github"></i></a>
+    </section>
+    <!-- Section: Social media -->
+    </div>
+  </footer>
+
+    <!-- footer section end -->
+
+</body>
+</html>
