@@ -72,7 +72,7 @@
 #gallery img{
     width: 100%;
 }
-#gallery p{
+#gallery span{
     font-weight: 600;
     font-size: 20px;
 }
